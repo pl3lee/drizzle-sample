@@ -8,7 +8,8 @@
         "start": "ts-node src/index.ts",
         "dev": "nodemon src/index.ts",
         "db:generate": "drizzle-kit generate:pg",
-        "db:migrate": "ts-node src/drizzle/migrate.ts"
+        "db:migrate": "ts-node src/drizzle/migrate.ts",
+        "db:studio": "drizzle-kit studio"
     },
     "keywords": [],
     "author": "",
